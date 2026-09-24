@@ -26,7 +26,7 @@ export default function HeaderTwo() {
                   </nav>
                 </div>
               </div>
-              <div className="social-white gap-xl-3 gap-2 d-md-flex d-none align-items-center">
+              {/* <div className="social-white gap-xl-3 gap-2 d-md-flex d-none align-items-center">
                 <a href="#" className="icon">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
@@ -39,7 +39,7 @@ export default function HeaderTwo() {
                 <a href="#" className="icon">
                   <i className="fa-brands fa-twitter"></i>
                 </a>
-              </div>
+              </div> */}
               <div className="header-right gap-xxl-4 gap-lg-4 gap-3 d-flex justify-content-end align-items-center">
                <div className="d-sm-block d-none">
   <button

@@ -12,21 +12,59 @@ export default function FooterTwo() {
               <div className="py-lg-5 me-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                 <div className="my-xl-5 py-lg-4">
                   <div className="sarah-mitchel">
-                    <div className="head mb-3 d-inline-flex align-items-center gap-xxl-3 gap-2">
-                      <div className="thumb">
-                        <img src="assets/img/imgs/bottom.png" alt="img" className="rounded-2" />
-                      </div>
-                      <div className="cont">
-                        <div
-                          className="fs-32px mb-2 text-white text-uppercase heading-font lh-1 fw-bold mb-1">
-                          Ayush Chaurasia
-                        </div>
-                        <p className="fs-seven text-white opacity-75">
-                          MERN STACK DEVELOPER
-                        </p>
-                      </div>
-                    </div>
-                    <div className="">
+                   <div className="head mb-3 d-inline-flex align-items-center gap-xxl-3 gap-2">
+ <div className="thumb position-relative">
+  <img
+    src="assets/img/imgs/bottom.png"
+    alt="Ayush Chaurasia"
+    className="rounded-2"
+  />
+
+  <a
+    href="https://www.linkedin.com/in/ayush-chaurasia-14366421a"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit Ayush Chaurasia on LinkedIn"
+    style={{
+      position: "absolute",
+      top: "-10px",
+      right: "-10px",
+      width: "32px",
+      height: "32px",
+      borderRadius: "50%",
+      backgroundColor: "#0A66C2",
+      color: "#fff",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      zIndex: 2,
+      textDecoration: "none",
+    }}
+  >
+    <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+  </a>
+</div>
+
+  <div className="cont">
+    <div className="fs-32px text-white text-uppercase heading-font lh-1 fw-bold mb-1">
+      Ayush Chaurasia
+    </div>
+    <p className="fs-seven text-white opacity-75">
+      MERN STACK DEVELOPER
+    </p>
+  </div>
+
+  <a
+    href="https://www.linkedin.com/in/ayush-chaurasia-14366421a/"
+    className="icon rounded-circle"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit Ayush Chaurasia on LinkedIn"
+  >
+    <i className="fa-brands fa-linkedin-in"></i>
+  </a>
+</div>
+                    {/* <div className="">
                       <div className="fs-seven text-uppercase opacity-75 mb-3 fw-semibold text-white">
                         Social Icon:
                       </div>
@@ -45,7 +83,7 @@ export default function FooterTwo() {
                           <i className="fa-brands fa-instagram"></i>
                         </a>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="badge">
                       contact ME
                     </div>

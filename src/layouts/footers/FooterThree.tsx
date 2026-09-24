@@ -105,7 +105,7 @@ export default function FooterThree() {
                   <i className="fa-solid fa-circle text-white"></i>
                 </li>
                 <li>
-                  <a href="#" className="fs--18px text-white text-uppercase heading-font">
+                  <a href="https://www.linkedin.com/in/ayush-chaurasia-14366421a" className="fs--18px text-white text-uppercase heading-font">
                     LinkedIn
                   </a>
                 </li>
