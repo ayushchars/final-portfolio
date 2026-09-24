@@ -61,7 +61,7 @@ export default function FooterTwo() {
     rel="noopener noreferrer"
     aria-label="Visit Ayush Chaurasia on LinkedIn"
   >
-    <i className="fa-brands fa-linkedin-in"></i>
+    {/* <i className="fa-brands fa-linkedin-in"></i> */}
   </a>
 </div>
                     {/* <div className="">
