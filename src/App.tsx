@@ -34,7 +34,7 @@
   function App() {
 
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
       const timer = setTimeout(() => {
