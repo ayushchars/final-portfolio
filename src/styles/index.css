@@ -1,0 +1,31 @@
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+
+
+@import "../../public/assets/css/all.min.css";
+@import "../../public/assets/css/animate.css";
+@import "../../public/assets/css/nice-select.css";
+@import "../../public/assets/css/meanmenu.css";
+@import "../../public/assets/css/bootstrap.css";
+
+
+@import "../../public/assets/css/bootstrap.min.css";
+@import "../../public/assets/css/main.css";
+
+
+.loader--container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.loader{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+}
