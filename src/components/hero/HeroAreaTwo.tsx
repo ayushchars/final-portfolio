@@ -29,10 +29,10 @@ export default function HeroAreaTwo() {
                         <span className="icon">
                           <img src="https://www.sidehustl.ca/favicon.ico" alt="img" className="rounded-circle" />
                         </span>
-                        <span className="icon">
+                        {/* <span className="icon">
                           <img src="https://crm.dlfthrive.com/favicon.ico" alt="img"
                             className="rounded-circle border" />
-                        </span>
+                        </span> */}
                         <span className="icon">
                           <img src="https://mylucidus.com/favicon.svg" alt="img"
                             className="rounded-circle border" />
