@@ -26,17 +26,17 @@ export default function HeroAreaTwo() {
                   <div className="content-right">
                     <div className="client-inner mb-4 wow fadeInUp" data-wow-delay="0.5s">
                       <div className="client-all">
-                        <span className="icon">
+                        {/* <span className="icon">
                           <img src="https://www.sidehustl.ca/favicon.ico" alt="img" className="rounded-circle" />
-                        </span>
+                        </span> */}
                         {/* <span className="icon">
                           <img src="https://crm.dlfthrive.com/favicon.ico" alt="img"
                             className="rounded-circle border" />
                         </span> */}
-                        <span className="icon">
+                        {/* <span className="icon">
                           <img src="https://mylucidus.com/favicon.svg" alt="img"
                             className="rounded-circle border" />
-                        </span>
+                        </span> */}
                         <span className="icon icon_in">
                           <i className="fas fa-plus"></i>
                         </span>

@@ -101,7 +101,7 @@ export default function WorkAreaTwo() {
           </div>
         </div>
 
-        <div className="row g-xxl-5 g-4">
+        {/* <div className="row g-xxl-5 g-4">
           {projects.map((project) => (
            <div
   key={project.number}
@@ -152,7 +152,7 @@ export default function WorkAreaTwo() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
