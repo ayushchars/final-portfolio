@@ -59,7 +59,8 @@ export default function HeroAreaTwo() {
                           <i className="fas fa-long-arrow-alt-right"></i>
                         </span>
                       </Link> */}
-                      <Link to="/projects" className="common_btn common_btn-whitetheme border text-nowrap">
+                      <Link to="" className="common_btn common_btn-whitetheme border text-nowrap">
+                      {/* <Link to="/projects" className="common_btn common_btn-whitetheme border text-nowrap"> */}
                         View Projects
                         <span className="icon_wrapper">
                           <i className="fas fa-long-arrow-alt-right"></i>

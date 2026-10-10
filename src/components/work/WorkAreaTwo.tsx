@@ -90,7 +90,8 @@ export default function WorkAreaTwo() {
             </div>
 
             <Link
-              to="/projects"
+              to=""
+              // to="/projects"
               className="common_btn common_btn-blacktheme text-nowrap"
             >
               view all projects
