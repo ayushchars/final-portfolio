@@ -29,7 +29,7 @@ export default function WorkAreaTwo() {
               <div className="fs-32px mb-4 text-md-end fw-bold text-uppercase">
                  MY impact
               </div>
-              <Link to="/blog" className="common_btn common_btn-blacktheme text-nowrap">
+              <Link to="/" className="common_btn common_btn-blacktheme text-nowrap">
                 Back to home
                 <span className="icon_wrapper">
                   <i className="fas fa-long-arrow-alt-right"></i>
@@ -45,7 +45,8 @@ export default function WorkAreaTwo() {
       data-wow-delay={project.delay}
     >
       <div className="wroking-service-item02">
-        <Link to={project.link} className="thumb">
+         <a
+                href={project.link} target="_blank" className="thumb">
           <img src={project.image} alt={project.name} />
 
           <span className="fs-32px fw-semibold date-badge z-2">
@@ -54,16 +55,18 @@ export default function WorkAreaTwo() {
               /{String(projects.length).padStart(2, "0")}
             </small>
           </span>
-        </Link>
+        </a>
 
         <div className="content d-flex align-items-center justify-content-between gap-2">
           <div>
-            <Link
-              to={project.link}
+            <a
+                href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="title d-block fs-32px heading-font fw-bold text-dark text-uppercase mb-3"
             >
               {project.name}
-            </Link>
+            </a>
 
             <p className="fs--18px fw-medium text-dark opacity-75">
               {project.position}

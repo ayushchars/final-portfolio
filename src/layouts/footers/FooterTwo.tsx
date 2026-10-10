@@ -100,7 +100,7 @@ export default function FooterTwo() {
                         About
                       </div>
                       <p className="fs-seven text-white opacity-75 pb-xxl-5 pb-4">
-                        Alex is a full-Stack developer crafting high-performance web solutions. Since
+                        Ayush is a full-Stack developer crafting high-performance web solutions. Since
                         2023, I’ve helped global brands.
                       </p>
                       {/* <p className="py-2 px-4 bg-white rounded-pill pra-clr text-center fs-seven">

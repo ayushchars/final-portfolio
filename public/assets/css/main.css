@@ -4948,6 +4948,12 @@ footer {
   }
 }
 @media (max-width: 575px) {
+    .banner-section02 .banner-content .content-left .titles {
+      font-size: 44px !important ;
+    }
+        .about-right-content .about-count_inner .about_count_item {
+        width: 100% !important;
+        }
   .banner-section02 {
     padding-top: 140px;
   }

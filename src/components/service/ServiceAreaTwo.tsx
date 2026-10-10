@@ -51,7 +51,7 @@ export default function ServiceAreaTwo() {
                             <img src="assets/img/development/arrow-left.png" alt="img"
                               className="arrow" />
                           </span>
-                          <Link to="/service-details">
+                          <Link to="">
                             Backend Development
                           </Link>
                         </h2>
@@ -94,7 +94,7 @@ export default function ServiceAreaTwo() {
                             <img src="assets/img/development/arrow-left.png" alt="img"
                               className="arrow" />
                           </span>
-                          <Link to="/service-details">
+                          <Link to="">
                             Frontend Development
                           </Link>
                         </h2>
@@ -131,7 +131,7 @@ export default function ServiceAreaTwo() {
                             <img src="assets/img/development/arrow-left.png" alt="img"
                               className="arrow" />
                           </span>
-                          <Link to="/service-details">
+                          <Link to="">
                             Devops
                           </Link>
                         </h2>

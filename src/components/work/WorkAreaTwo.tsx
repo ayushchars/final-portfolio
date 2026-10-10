@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     number: "01",
-    image: "assets/img/imgs/bold.png",
-    // image: "https://www.anacity.com/images/anacity/v2/logo.png",
-    title: "Bold Potable",
+    image: "assets/img/imgs/thrive.png",
+    // title: "Bold Potable",
+    title: "DLF THRIVE",
     category: "Full-Stack Development",
     year: "2025",
-    url: "https://boldsiterentals.com",
+    url: "https://crm.dlfthrive.com",
     column: "col-lg-7",
     delay: "0.5s",
   },
@@ -19,7 +19,7 @@ const projects = [
 
     title: "Sidehustl",
     category: "Full-Stack Development",
-    year: "2026",
+    year: "2023",
     url: "https://www.sidehustl.ca",
     column: "col-lg-5",
     delay: "0.7s",
@@ -27,24 +27,24 @@ const projects = [
   {
     number: "03",
     // image: "https://mylucidus.com/images/logo-mark.svg",
-    image: "assets/img/imgs/mylucidus_logo.png",
+    image: "assets/img/imgs/guild.png",
 
-    title: "Lucidus",
+    title: "DLF GUILD",
     category: "Full-Stack Development",
     year: "2026",
-    url: "https://mylucidus.com",
+    url: "https://guildcrm.themarcomavenue.in",
     column: "col-lg-5",
     delay: "0.9s",
   },
   {
     number: "04",
     // image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeMjnBMEY3VC4GWpaepuQI83oF25zpnzvO1ZRnCTFtPw&s",
-    image: "assets/img/imgs/we_bc.png",
+    image: "assets/img/imgs/renew.png",
    
-    title: "WEBC",
+    title: "Renew",
     category: "Frontend & Backend",
     year: "2023",
-    url: "https://we-bc.ca",
+    url: "https://www.renew.com/",
     column: "col-lg-7",
     delay: "0.5s",
   },
@@ -90,7 +90,7 @@ export default function WorkAreaTwo() {
             </div>
 
             <Link
-              to="/blog"
+              to="/projects"
               className="common_btn common_btn-blacktheme text-nowrap"
             >
               view all projects

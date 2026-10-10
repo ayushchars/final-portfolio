@@ -44,7 +44,7 @@ export default function AwardsAreaTwo() {
                     </div>
                   </div>
                 </div>
-                <div className="award2-wrap justify-content-sm-start">
+                <div className="award2-wrap justify-content-sm-center">
                   <div className="award2-item tlt">
                     <div className="box">
                       <div className="badges">
