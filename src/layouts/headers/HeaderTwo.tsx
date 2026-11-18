@@ -35,8 +35,8 @@ export default function HeaderTwo() {
                     className="common_btn common_btn-blacktheme text-nowrap"
                     onClick={() => {
                       const link = document.createElement("a");
-                      link.href = "/assets/img/imgs/Ayush-Chaurasia.pdf";
-                      link.download = "Ayush-Chaurasia.pdf";
+                      link.href = "/assets/img/imgs/AyushChaurasia.pdf";
+                      link.download = "AyushChaurasia.pdf";
                       link.click();
                     }}
                   >
